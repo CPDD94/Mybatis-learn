@@ -30,7 +30,7 @@ public class MyTest {
         mapper.updateUser(user);*/
         // 新增用户2
         HashMap<String, Object> map = new HashMap<String, Object>();
-        map.put("id",5);
+        map.put("id",8);
         map.put("name","cccp");
         map.put("pwd","666666");
         mapper.addUser2(map);
