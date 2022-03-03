@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68c5e37c-cc1f-4c3d-bfcc-a2e33348545f" name="Changes" comment="mybatis-01">
-      <change afterPath="$PROJECT_DIR$/mybatis-02/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-01/src/main/java/com/example/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-01/src/main/java/com/example/dao/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-01/src/test/java/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-01/src/test/java/MyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="68c5e37c-cc1f-4c3d-bfcc-a2e33348545f" name="Changes" comment="mybatis-01 @Param">
+      <change afterPath="$PROJECT_DIR$/mybatis-02/src/main/java/com/example/dao/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-02/src/main/java/com/example/dao/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-02/src/main/java/com/example/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-02/src/main/java/com/example/utils/MybatisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-02/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-02/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-02/src/test/java/MyTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,14 +51,32 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../官方代码/Mybatis-Study" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatis-02/src/main/java/com/example/dao" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\java框架\学习代码\Mybatis-learn\mybatis-02\src\main\java\com\example\dao" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.utils" />
+      <recent name="com.example.pojo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MyTest.test (1)">
+    <configuration name="MyTest.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-02" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis-01" />
       <option name="PACKAGE_NAME" value="" />
@@ -71,6 +89,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyTest.test (1)" />
         <item itemvalue="JUnit.MyTest.test" />
       </list>
     </recent_temporary>
@@ -84,7 +103,7 @@
       <option name="presentableId" value="Default" />
       <updated>1646269821888</updated>
       <workItem from="1646269824410" duration="43000" />
-      <workItem from="1646270750840" duration="13037000" />
+      <workItem from="1646270750840" duration="14014000" />
     </task>
     <task id="LOCAL-00001" summary="load maven">
       <created>1646270846504</created>
@@ -128,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646289462084</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="mybatis-01 @Param">
+      <created>1646294460663</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1646294460663</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +177,7 @@
     <MESSAGE value="add pom jar&amp;build resources" />
     <MESSAGE value="test select" />
     <MESSAGE value="mybatis-01" />
-    <option name="LAST_COMMIT_MESSAGE" value="mybatis-01" />
+    <MESSAGE value="mybatis-01 @Param" />
+    <option name="LAST_COMMIT_MESSAGE" value="mybatis-01 @Param" />
   </component>
 </project>
