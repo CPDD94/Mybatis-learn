@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68c5e37c-cc1f-4c3d-bfcc-a2e33348545f" name="Changes" comment="add pom jar&amp;build resources">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-01/src/main/java/com/example/dao/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-01/src/main/java/com/example/dao/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-01/src/main/java/com/example/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-01/src/main/java/com/example/utils/MybatisUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-01/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-01/src/test/java/MyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text" afterDir="false" />
+    <list default="true" id="68c5e37c-cc1f-4c3d-bfcc-a2e33348545f" name="Changes" comment="test select">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-01/src/main/java/com/example/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-01/src/main/java/com/example/dao/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-01/src/main/java/com/example/dao/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-01/src/main/java/com/example/dao/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-01/src/main/java/com/example/utils/MybatisUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-01/src/main/java/com/example/utils/MybatisUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-01/src/test/java/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-01/src/test/java/MyTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +82,7 @@
       <option name="presentableId" value="Default" />
       <updated>1646269821888</updated>
       <workItem from="1646269824410" duration="43000" />
-      <workItem from="1646270750840" duration="5210000" />
+      <workItem from="1646270750840" duration="10353000" />
     </task>
     <task id="LOCAL-00001" summary="load maven">
       <created>1646270846504</created>
@@ -116,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646272054240</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="test select">
+      <created>1646276190526</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1646276190526</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +140,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="load maven" />
     <MESSAGE value="add pom jar&amp;build resources" />
-    <option name="LAST_COMMIT_MESSAGE" value="add pom jar&amp;build resources" />
+    <MESSAGE value="test select" />
+    <option name="LAST_COMMIT_MESSAGE" value="test select" />
   </component>
 </project>
